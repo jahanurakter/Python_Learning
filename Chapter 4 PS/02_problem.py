@@ -1,0 +1,18 @@
+Students=[]
+
+s1 = int(input("Enter marks name: " ))
+Students.append(s1)
+s2 = int(input("Enter marks name: " ))
+Students.append(s2)
+s3 = int(input("Enter marks name: " ))
+Students.append(s3)
+s4= int(input("Enter marks name: " ))
+Students.append(s4)
+s5 = int(input("Enter marks name: " ))
+Students.append(s5)
+s6 = int(input("Enter marks name: " ))
+Students.append(s6)
+s7 = int(input("Enter marks name: " ))
+Students.append(s7)
+Students.sort()
+print(Students)

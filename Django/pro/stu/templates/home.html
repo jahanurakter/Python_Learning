@@ -1,0 +1,30 @@
+{% extends 'master/layout.html' %}
+
+
+{% block title %}
+    Home Page
+{% endblock title %}
+
+
+{% block body %}
+    <h3>Stuednt Information</h3>
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Age</th>
+            <th>Address</th>
+        </tr>
+    </thead>
+    <tbody>
+        {% for info in student %}
+            <tr>     
+                <td>{{info.name}}</td>
+                <td>{{info.age}}</td>
+                <td>{{info.address}}</td>
+            </tr>      
+                {% endfor %}
+    </tbody>
+</table>
+{% endblock body %}
+    
